@@ -317,7 +317,7 @@ main.page{
     gap: 11.25rem;
     align-items: center;
 }
-.menu::after{
+.menu.active::after{
     content: '';
     position: absolute;
     left: 0;
@@ -327,8 +327,6 @@ main.page{
     opacity: 0;
     z-index: -22;
     background-color: rgba(0, 0, 0, 0.15);
-}
-.menu.active::after{
     opacity: 1;
 }
 .menu__list{
